@@ -121,7 +121,7 @@ function contactlist()
 			
 			data = data +"<td>" + contact[i].name + "</td>";
 			data = data +"<td>" + contact[i].mobile + "</td>";
-			data = data +"<td><img src='"+contact[i].image + "'class='img-responsive' height='100%' width='100%'></td>";
+			data = data +"<td><img src='"+contact[i].image + "'class='img-responsive' height='50%' width='50%'></td>";
 		
 			data = data +"</tr>";
 		}	
